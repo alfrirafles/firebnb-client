@@ -18,6 +18,7 @@
 <script>
     import { largeCardSections, smallCardSections } from "@/api-data/data.js"
     export default {
+        layout: 'default',
         data() {
             return {
                 largeCardInfo: largeCardSections,

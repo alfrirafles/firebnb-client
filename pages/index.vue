@@ -20,6 +20,7 @@
 import { largeCardSections, smallCardSections } from "@/api-data/data.js"
 import LargeCardDisplay from '../components/LargeCardDisplay.vue'
 export default {
+  layout: '@/layout/default',
   components: { LargeCardDisplay },
   data(){
     return{

@@ -54,6 +54,7 @@
 
 <script>
 export default {
+  layout: 'default',
   computed: {
     products() {
       return this.$store.getters.getProductId(this.$route.params.id);
