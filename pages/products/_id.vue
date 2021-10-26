@@ -48,13 +48,15 @@
         </p>
       </div>
     </div>
-    <div v-else class="container padding">Page not found.</div>
+    <div v-else class="container padding">
+      <PageNotFound />
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  layout: 'default',
+  layout: "default",
   computed: {
     products() {
       return this.$store.getters.getProductId(this.$route.params.id);
